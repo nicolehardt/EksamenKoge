@@ -6,7 +6,6 @@ html, body {
   margin: 0;
   font-family: 'avenir next', 'Quicksand', sans-serif;
   text-align: center;
-  background-image: url("../images/sten1.jpg");
   background-attachment: fixed;
 }
 
@@ -14,6 +13,9 @@ html, body {
   font-family: 'avenir next';
 }*/
 
+#hovedside{
+  background-image: url("../images/sten1.jpg");
+}
 
 /*---------------INDEX-----------------*/
 
@@ -526,13 +528,17 @@ footer .fa:hover {
 
 /*---------------MOR-----------------*/
 #mama{
-  background-color: white;
+  /*background-color: white;*/
+  background-image: none;
 }
 
 .logo{
-  width: 15%;
+  width: 30%;
   float: left;
 }
+
+#mama
+
 
 
 
