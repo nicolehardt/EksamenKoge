@@ -15,7 +15,7 @@ html, body {
 }*/
 
 
-
+/*---------------INDEX-----------------*/
 
 #side1 {
   height: 102vh;
@@ -524,6 +524,15 @@ footer .fa:hover {
 
 
 
+/*---------------MOR-----------------*/
+#mama{
+  background-color: white;
+}
+
+.logo{
+  width: 15%;
+  float: left;
+}
 
 
 
