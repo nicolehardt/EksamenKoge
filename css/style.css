@@ -532,17 +532,43 @@ footer .fa:hover {
   background-image: none;
 }
 
+
 .logo{
   width: 30%;
   float: left;
 }
 
-#mama
 
+#mama #search{
+  clear: both;
+  padding-top: 8%;
+}
 
+#mama h1{
+  font-size: 280%;
+  margin-bottom: 3%;
+}
 
+#mama h2{
+  font-size: 105%;
+  margin-bottom: 1.5%;
+}
 
+#mama .mor{
+  width: 24%;
+}
 
+#mama .left{
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#mama select{
+  width: 60%;
+  font-size: 90%;
+  border-radius: 6px;
+}
 
 /* Small devices (large phones) */
 @media only screen and (min-width: 400px)
