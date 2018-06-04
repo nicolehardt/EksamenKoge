@@ -1,0 +1,1205 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'avenir next', 'Quicksand', sans-serif;
+  text-align: center;
+  background-image: url("../images/sten1.jpg");
+  background-attachment: fixed;
+}
+
+/*main, p{
+  font-family: 'avenir next';
+}*/
+
+
+
+
+#side1 {
+  height: 102vh;
+  background-image: url("../images/mobiltop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 0;
+}
+
+#logotop{
+  float: left;
+  max-width: 30%;
+  margin: 2% 0 0 2%;
+}
+
+#logobund{
+  float: left;
+  max-width: 30%;
+  margin: 2% 0 0 2%;
+}
+
+#side1 h1 {
+  color: white;
+  padding-top: 200px;
+  margin-top: 0;
+  font-weight: normal;
+  /*font-family: 'avenir next';*/
+}
+
+#side1 p {
+  color: white;
+  font-weight: normal;
+  margin: 0 5%;
+}
+
+#side1 button {
+    background-color: #EFD04E;
+    border: none;
+    color: white;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 10% auto 0 auto;
+    cursor: pointer;
+    clear: right;
+}
+
+#side1 .dropdownbutton{
+    width: 60%;
+    background-color: #efdb88;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+
+    display: inline-block;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+
+#side1 section a{
+  margin-top: 0;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------Side 2 begynder her----------------------*/
+
+#side2 {
+  /*height: 68vh;*/
+  /*position: relative;*/
+  /*text-align: center;*/
+  background-color: white;
+  margin: auto;
+  width: 90%;
+  padding: 0.5em 0;
+}
+
+#side2 #mobillille {
+  max-width: 80%;
+  /*margin-top: 18%;*/
+}
+
+#side2 .texttop {
+    /*position: absolute;*/
+    /*float: left;*/
+    /*bottom: 87.5%;
+    left: 2%;*/
+    color: grey;
+    font-size: 130%;
+    /*font-family: 'avenir next';*/
+    font-weight: normal;
+    line-height: 113%;
+}
+
+#side2 .textbund {
+    /*position: absolute;
+    float: left;*/
+    /*margin-left: 4%;*/
+    /*top: 87%;
+    left: 2%;*/
+    color: grey;
+    margin: 1.2em auto;
+    /*font-family: 'avenir next';*/
+    font-weight: normal;
+    /*line-height: 140%;*/
+    font-size: 110%;
+}
+
+#side2 .textbund p{
+  margin: 0;
+  text-align: center;
+}
+
+#side2 #deskside {
+  display: none;
+}
+
+#side2 a {
+  color: #fcbe1b;
+  text-decoration: none;
+  /*font-family: 'avenir next';*/
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------Side 3 begynder her----------------------*/
+
+#side3 {
+  /*height: 95vh;*/
+  padding: 5% 0;
+  color: white;
+  background-color: rgba(99, 156, 167, 0.5);
+}
+
+#side3 #navtop {
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px 0 2px 0;
+}
+
+#side3 #navbund {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 2px 0;
+}
+
+#side3 #navstor{
+  display: none;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 7px;
+}
+
+#side3 nav a {
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#side3 figure {
+  display: inline-block;
+  width: 80%;
+}
+
+
+#side3 .mySlides{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*figcaption {
+  text-align: center;
+  padding: 10px 20px;
+}*/
+
+#side3 button {
+    border-radius: 50%;
+    padding: 15px 15px;
+    margin: 0 5px;
+    background-color: white;
+    color: #f4d11e;
+    border-style: solid;
+    border-color: #ebe8e8;
+    font-weight: normal;
+}
+
+#side3 #vaelg {
+    border-radius: 50%;
+    padding: 20px 20px;
+    background-color: white;
+    color: #00754c;
+    border-style: solid;
+    border-color: #ebe8e8;
+    font-weight: normal;
+}
+
+#side3 i {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#side3 h4 {
+  padding-top: 5%;
+  /*font-family: 'avenir next';*/
+  color: white;
+}
+
+#side3 h2 {
+  /*padding-top: 5%;*/
+  /*font-family: 'avenir next';*/
+  /*color: white;*/
+}
+
+#side3 article p {
+  text-align: center;
+  /*color: white;*/
+  padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------Side 4 begynder her----------------------*/
+
+#side4 {
+  /*height: 80vh;*/
+  background-color: white;
+  padding: 1em;
+  /*font-family: 'avenir next';*/
+}
+
+#side4 h2 {
+  color: black;
+  padding-top: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#side4 figure {
+  margin: 0;
+  padding: 0;
+}
+
+.mor {
+  max-width: 31%;
+}
+
+#side4 article p {
+  text-align:left;
+  color: black;
+  padding: 0 20px;
+  /*margin: 0 0 10% 0;*/
+}
+
+
+#side4 button {
+    background-color: #EFD04E;
+    border: none;
+    color: white;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 0 auto;
+    cursor: pointer;
+    clear: right;
+}
+
+#side4 .dropdownbutton{
+    width: 66%;
+    background-color: #efdb88;
+    border: none;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+
+#side4 section a{
+  margin-top: 0;
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------Side 5 begynder her----------------------*/
+
+
+#side5 {
+  /*height: 90vh;*/
+  /*background-color: rgba(126, 169, 148, 0.5);*/
+  padding: 1.3em;
+  background: linear-gradient(rgba(126, 169, 148, 0.5), rgba(99, 156, 167, 0.5));
+  color: black;
+  font-size: 15px;
+}
+
+#side5 h2 {
+  color: white;
+  /*padding-top: 10px;*/
+  /*margin: 30px 0 10px 0;*/
+}
+
+#side5 figure {
+  display: inline-block;
+  width: 90%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5% 0 5% 0;
+}
+
+#side5 figure figcaption {
+  text-align: center;
+  padding: 0 10px;
+}
+
+#side5 #nytdesk {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------Side 6 begynder her----------------------*/
+
+#side6 {
+  /*height: 60vh;*/
+
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  width: 80%;
+  /*position: relative;*/
+  padding: 1.5em 0;
+    text-align: center;
+    margin: auto;
+}
+
+#side6 section p {
+  font-size: 6vw;
+  color: black;
+}
+
+#side6 #open{
+  margin-top: 10%;
+}
+
+table {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/*----------------Side 7 begynder her----------------------*/
+/*--------------- gul boks over footer---------------------*/
+
+
+#side7 {
+  height: 5vh;
+  background-color: #f5e293;
+  color: black;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+/*----------------Side 8 begynder her----------------------*/
+/*-----------------------kontakt---------------------------*/
+
+#side8 {
+  /*height: 60vh;*/
+  background-color: #efd04e;
+  color: black;
+  font-size: 15px;
+}
+
+#side8 h2 {
+  color: black;
+  padding-top: 50px;
+  margin-top: 0;
+}
+
+#side8 p {
+  margin-top: 0;
+}
+
+iframe{
+  margin: 5% auto;
+}
+
+#side8 a{
+  color: #00754c;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+/*----------------------footer---------------------------*/
+
+footer{
+  background: linear-gradient(rgba(126, 169, 148, 0.9), rgba(99, 156, 167, 0.7));
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+footer .fa {
+  padding: 7px;
+  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  margin-left: 20px;
+  background: #00754c;
+  color: white;
+}
+
+footer .fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+/* Small devices (large phones) */
+@media only screen and (min-width: 400px)
+{
+  /*#side2{
+  padding: 1em 0;
+  }
+
+  #side2 #mobilside {
+    display: none;
+  }
+
+  #side2 #deskside{
+    display: block;
+  }
+  #side2 #mobilstor{
+    max-width: 100%;
+    margin: 1.3em 0;
+    /*margin-top: 30%;*/
+  /*}*/
+
+  /*#side3 {
+    height: 104vh;
+}*/
+
+
+
+
+
+
+
+
+
+/*----------------Side 4 begynder her----------------------*/
+/*--------------------spørg mor----------------------------*/
+#side4 .mor{
+  width: 23%;
+}
+
+  /*#side5 {
+    height: 106vh;
+}*/
+
+
+
+
+
+
+
+
+#side8 h2 {
+    padding-top: 60px;
+}
+
+}
+
+/*@media only screen and (min-width: 528px)
+{
+  #side3, #side5 {
+    height: 112vh;
+  }
+}*/
+
+
+/*
+@media only screen and (min-width: 650px)
+{
+  main h2 {
+    /*font-family: 'avenir next';*/
+  /*}
+
+  #side2 #mobilstor {
+    margin-top: 60px;
+}
+
+#side2 .textbund {
+    position: absolute;
+    float: left;
+    margin-left: 0;
+}
+
+  #side3 {
+    height: 120vh;
+  }
+
+  #side3 figure{
+    display: block;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  #side4 {
+    height: 80vh;
+  }
+
+  #side4 .mor{
+    max-width: 22%;
+  }
+
+  #side3 #navtop, #navbund {
+    display: none;
+  }
+
+  #side4 #navstor {
+    display: inline;
+  }
+
+  #side5 {
+    height: 180vh;
+}
+
+#side6, #side8 {
+  height: 90vh;
+}
+
+
+  #side8 #logobund {
+    float: left;
+    max-width: 20%;
+    margin: 2% 0 0 2%;
+}
+
+
+
+
+
+
+}*/
+
+/* Tablets vertical*/
+@media only screen and (min-width: 760px) {
+  #side1 h1{
+    font-weight: bold;
+    padding-top: 7.8em;
+    font-size: 310%;
+  }
+
+  #side1 p{
+    font-size: 125%;
+  }
+
+  #side1 button{
+    font-size: 145%;
+    padding: 15px 70px;
+  }
+
+  #side1 .dropdownbutton{
+    width: 50%;
+  }
+
+  h2{
+    font-size: 285%;
+    font-weight: bold;
+  }
+
+  #side2{
+    width: 92%;
+  }
+
+  #side2 #mobilside {
+    display: none;
+  }
+
+  #side2 #deskside{
+    display: block;
+  }
+
+  #side2 #deskside #mobilstor{
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  #side2 .texttop{
+    font-size: 160%;
+  }
+
+  #side2 .textbund{
+    font-size: 130%;
+  }
+
+  #side3 a{
+    font-size: 180%;
+  }
+
+  #side3 article h4{
+    font-size: 180%;
+  }
+
+  #side3 article p{
+    font-size: 150%;
+  }
+
+  #side4{
+    padding: 2.3em 0;
+  }
+
+  #side4 article{
+    font-size: 120%;
+    margin-bottom: 2.3em;
+  }
+
+  #side4 button{
+    /*margin: 2.3em auto;*/
+    font-size: 145%;
+    padding: 15px 80px;
+  }
+
+  #side4 .dropdownbutton{
+    width: 50%;
+  }
+
+  #side5 figure{
+    width: 80%;
+    margin: 3% 0;
+  }
+
+  #side6 h2{
+    font-size: 270%;
+  }
+
+  #side6 tbody{
+    font-size: 115%;
+  }
+
+  #side8 h2{
+    padding-top: 83px;
+  }
+
+  #side8 p, #side8 a{
+    font-size: 125%;
+  }
+
+  #side8 iframe{
+    width: 60%;
+  }
+
+
+  footer .fa{
+    padding: 11px;
+    font-size: 35px;
+    width: 7%;
+    height: 60%;
+    margin: 7px 2px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+
+/* Tablets horizontal */
+@media only screen and (min-width: 1024px){
+
+  #logotop, #logobund{
+    width: 20%;
+  }
+
+  #side1 h1{
+    padding-top: 5.5em;
+  }
+
+  #side1 button{
+    margin: 8% auto 0 auto;
+  }
+
+  #side2{
+    width: 94%;
+  }
+
+  #side2 .texttop{
+    font-size: 180%;
+  }
+
+  #side2 .texttop p{
+    margin: 4% 0 1% 0;
+  }
+
+  #side2 .textbund{
+    margin: 1% 0 4% 0;
+  }
+
+  #side2 .textbund{
+    font-size: 140%;
+  }
+
+  #side3 nav, #side3 ul{
+    display: inline;
+  }
+
+  #side3 figure{
+    display: block;
+    width: 55%;
+    margin: 3% auto;
+  }
+
+  #side3 article{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  #side5 figure{
+    width: 70%;
+  }
+
+  #side6 #open{
+    margin-top: 5%;
+  }
+
+  #side8 iframe{
+    height: 300px;
+  }
+
+  footer .fa{
+    padding: 14px;
+  }
+}
+
+
+/*@media only screen and (min-width: 1900) {
+
+}*/
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{
+#side1 {
+  /*height: 94vh;*/
+}
+
+#logotop{
+  /*float: left;*/
+  max-width: 15%;
+  margin: 2% 0 0 2%;
+}
+
+
+#side1 h1 {
+  /*color: white;*/
+  padding-top: 14%;
+  /*margin-top: 0;
+  font-weight: bold;
+  font-size: 50px;*/
+}
+
+#side1 p {
+  /*color: white;
+  font-weight: normal;*/
+  margin: 0 5%;
+}
+
+#side1 button {
+  /*display: flex;
+  flex-direction: column;*/
+    /*background-color: #EFD04E;
+    border: none;
+    color: white;*/
+    padding: 15px 0;
+    width: 20%;
+    /*text-align: center;
+    text-decoration: none;*/
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 6% 2px 0 2px;
+    /*cursor: pointer;
+    clear: right;*/
+}
+
+#side1 .dropdownbutton{
+    /*display: inline-table;*/
+    margin: auto;
+    width: 19%;
+    /*padding-left: 30px;*/
+    background-color: #efdb88;
+    border: none;
+    /*color: white;
+    text-decoration: none;*/
+    display: block;
+    margin-top: 0;
+    /*cursor: pointer;*/
+}
+
+
+#side1 .dropdownbutton a{
+  margin-top: 0;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+}
+
+#side1 a:hover{
+  text-decoration: underline;
+}
+
+/*----------------Side 2 begynder her----------------------*/
+
+#side2{
+  /*height: 93vh;*/
+  width: 99%;
+}
+
+/*#side2 #mobilside {
+  display: none;
+}
+
+#side2 #deskside {
+  display: inline;
+}*/
+
+#side2 #mobilstor {
+  /*display: inline;*/
+  max-width: 85%;
+  margin-top: 7%;
+}
+
+#side2 .texttop {
+    /*bottom: 83%;*/
+    font-size: 2.8vw;
+    font-weight: lighter;
+    margin-left: 4%;
+}
+
+#side2 .textbund {
+    /*position: absolute;
+    float: left;
+    margin-left: 4%;
+    top: 88%;*/
+    font-size: 2vw;
+    font-weight: lighter;
+}
+
+
+/*----------------Side 3 begynder her----------------------*/
+
+#side3{
+  /*position: relative;
+  height: 116vh;*/
+  width: 80%;
+  margin: auto;
+}
+
+/*
+#side3 #navtop, #navbund {
+  display: none;
+}
+
+#side3 #navstor{
+  display: inline;
+}*/
+
+#side3{
+  padding-top: 2%;
+}
+
+#side3 #navtop, #side3 #navbund{
+  padding-top: 1%;
+}
+
+#side3 nav a{
+  font-size: 1.2vw;
+}
+
+#side3 nav a:hover{
+  text-decoration: underline;
+}
+
+#side3 nav li{
+  margin: 1%;
+}
+
+#side3 figure {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+#side3 #vaelg {
+    /*padding: 20px 35px;*/
+    margin-top: 3%;
+}
+
+#side3 i {
+  text-align: center;
+  font-size: 40px;
+}
+
+#side3 h2 {
+  padding: 0;
+  margin-top: 2px;
+}
+
+#side3 h4{
+  padding-top: 2%;
+}
+
+#side3 article{
+  /*margin-left: 0;*/
+}
+
+/*----------------Side 4 begynder her----------------------*/
+
+#side4 h2{
+  margin-bottom: 2%;
+}
+
+#side4 .flexcontainer{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  margin: 1% auto;
+}
+
+/*#side4 .flexitem{
+  width: 50%;
+}*/
+
+#side4 .flexcontainer article{
+  width: 60%;
+}
+
+#side4 .flexcontainer figure{
+  width: 40%;
+}
+
+#side4 #mellemrum{
+  margin-top: 1%;
+}
+
+#side4 .mor{
+  width: 50%;
+}
+
+#side4 article{
+  /*float: left;
+  width: 50%;*/
+}
+
+#side4 article p {
+  margin:0;
+}
+
+#side4 figure {
+  /*float: right;
+margin: auto;
+  width: 50%;*/
+}
+
+
+
+/*----------------Side 5 begynder her----------------------*/
+
+#side5{
+  /*height: 80vh;*/
+  padding-bottom: 3%;
+}
+
+#side5 #nytmobil {
+  display: none;
+}
+
+#side5 #nytdesk {
+  display: inline;
+}
+#side5 figure{
+  width: 25%;
+  margin: 30px;
+}
+
+/*----------------Side 6 begynder her----------------------*/
+#side6 {
+  /*height: 90vh;*/
+  padding: 5.5em 0;
+  width: 90%;
+}
+
+#side6 h2{
+  font-size: 35px;
+}
+
+#side6 table {
+  font-size: 12px;
+}
+
+#side6 #open{
+  margin: 0;
+}
+
+#side6 .flexcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+  /*align-items: baseline;*/
+}
+
+
+/*----------------Side 7 begynder her----------------------*/
+
+#side7{
+height: 10vh;
+}
+
+/*----------------Side 2 begynder her----------------------*/
+
+#side8{
+  /*height: 80vh;*/
+  /*margin-top: 0;*/
+  padding-bottom: 3%;
+}
+
+#side8 .flexcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+  clear: both;
+}
+
+#side8 .flexitem{
+}
+
+#side8 article{
+  /*float: left;
+  margin-top: 8%;*/
+  text-align: left;
+}
+
+#side8 p{
+  font-size: 1.4vw;
+}
+
+#side8 iframe{
+  margin: 1%;
+  /*float: right;
+  width: 40%;
+  height: 60%;*/
+}
+
+#side8 a{
+  font-size: 1.3vw;
+  margin-left: 3px;
+}
+#logobund {
+  width: 15%;
+}
+
+footer {
+  padding: 15px;
+}
+
+footer .fa {
+  padding: 20px 20px;
+  font-size: 22px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  /*margin-left: 20px;*/
+}
+
+}
+
+
+/* X X Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px)
+{}

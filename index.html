@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110421371-1"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<script>
+$(document).ready(function(){
+    $(".dropdownbutton").hide();
+    $("button").click(function(){
+        $(".dropdownbutton").toggle();
+    });
+});
+
+
+</script>
+
+    <title>Bla</title>
+</head>
+
+  <body>
+<header>
+
+<!--Side 1-->
+<img id="logotop" src="images/logo.png" alt="logo">
+</header>
+
+<main>
+    <section id="side1">
+
+      <h1> Det er ikk’ så svært endda… </h1>
+
+      <p>men bliver du alligevel i tvivl, kan du altid spørge MOR. </p>
+      <p>MOR, som står for Maximum Offline Reply, er Køge Kommunes nye database, hvor du stiller dit spørgsmål og vi svarer på det.</p>
+        <p>Alt sammen lige her. Helt simpelt.</p>
+
+      <section>
+        <button>Spørg MOR  ></button>
+           <a href="" class="dropdownbutton">Stil dit eget spørgsmål her...</a>
+          <a href="" class="dropdownbutton">Se andres spørgsmål her...</a>
+      </section>
+
+    </section>
+
+
+
+<!--Side 2-->
+    <section id="side2">
+
+      <section id="mobilside">
+        <section class="texttop">
+          <p>Synes du også, at NemID kan være super uoverskueligt?</p>
+        </section>
+        <img id="mobillille" src="images/mobilapp.jpg" alt="Hent din nye mobilapp i dag">
+        <section class="textbund">
+          <p>Gør det kedelige lidt sjovere!</p>
+          <p><a href="bob.html">Klik her</a> og hent vores nye App i dag!</p>
+        </section>
+     </section>
+
+
+        <section id="deskside">
+
+          <section class="texttop">
+            <p>Synes du også, at NemID kan være super uoverskueligt?</p>
+          </section>
+          <img id="mobilstor" src="images/desktopapp.jpg" alt="Hent din nye mobilapp i dag">
+          <section class="textbund">
+          <p>Gør det kedelige lidt sjovere!</p>
+          <p><a href="bob.html">Klik her</a> og hent vores nye App i dag!</p>
+          </section>
+        </section>
+
+    </section>
+<!--Side 3-->
+
+
+    <section id="side3">
+
+      <h2>Hvad søger du?</h2>
+
+      <nav>
+        <ul id="navtop">
+          <li>
+            <a href="#">e-Boks</a>
+          </li>
+          <li>
+            <a href="#">NemID</a>
+          </li>
+          <li>
+            <a href="#">Pas</a>
+          </li>
+        </ul>
+        <ul id="navbund">
+          <li>
+            <a href="#">Kørekort</a>
+          </li>
+          <li>
+            <a href="#">Uddannelse</a>
+          </li>
+          <li>
+            <a href="#">Bolig</a>
+          </li>
+        </ul>
+      </nav>
+
+<!--
+      <nav>
+        <ul id="navstor">
+          <li>
+            <a href="#">e-Boks</a>
+          </li>
+          <li>
+            <a href="#">NemID</a>
+          </li>
+          <li>
+            <a href="#">Pas</a>
+          </li>
+          <li>
+            <a href="#">Kørekort</a>
+          </li>
+          <li>
+            <a href="#">Uddannelse</a>
+          </li>
+          <li>
+            <a href="#">Bolig</a>
+          </li>
+        </ul>
+      </nav>
+-->
+
+
+
+      <figure>
+        <img class="mySlides" src="images/nemid2.jpg" alt="NemID-kort" style="width:100%">
+        <img class="mySlides" src="images/pas2.jpg" alt="Pas" style="width:100%">
+        <img class="mySlides" src="images/kk2.jpg" alt="Kørekort" style="width:100%">
+        <!--<figcaption>
+          <p>blablabla</p>
+        </figcaption>-->
+        </figure>
+
+        <button onclick="plusDivs(-1)"> <i class="fa fa-long-arrow-left"></i> </button>
+        <button id="vaelg" onclick="myFunction()"> <i class="fa fa-heart"></i> </button>
+        <button onclick="plusDivs(1)"> <i class="fa fa-long-arrow-right"></i> </button>
+
+
+        <script>
+        function myFunction() {
+            window.open("https://www.borger.dk/Om-borger-dk/Saadan-bruger-du-borgerdk/NemID");
+        }
+        </script>
+
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          x[slideIndex-1].style.display = "block";
+        }
+        </script>
+
+
+        <article>
+          <h4> - Find dit match! - </h4>
+          <p>Vi har samlet emnerne for en række af de mest søgte områder på vores hjemmeside, så vi kan gøre det lidt nemmere for dig.</p>
+          <p>Swipe dig igennem billederne ovenfor, og bliv overrasket - måske finder du dit match i bunken?</p>
+        </article>
+
+    </section>
+
+
+<!--Side 4-->
+    <section id="side4">
+
+      <h2> Spørg MOR</h2>
+    <section class="flexcontainer">
+
+      <figure class="flexitem">
+        <img class="mor" src="images/moor.jpg" alt="mor">
+        <img class="mor" src="images/pil.jpg" alt="mor">
+        <img class="mor" src="images/mor.png" alt="mor">
+      </figure>
+
+      <article class="flexitem">
+        <p>… er en helt ny måde at få svar på dine spørgsmål! </p>
+          <p>Her kan du stille spørgsmål til alt det det du er i tvivl om - ligemeget om det er SU, pas, NemID og så videre, for dumme spørgsmål findes ikke!</p>
+
+        <p id="mellemrum">I stedet for at ringe til kommunen, kan du gøre følgende to ting:</p>
+        <p>1. Du ser om dit spørgsmål er blandt de ofest stillede</p>
+        <p>2. Du skriver og stiller dit spørgsmål til MOR og hun besvarer dit spørgsmål inden for gangske kort tid</p>
+
+      </article>
+    </section>
+
+
+
+        <button>Spørg MOR  ></button>
+          <a href="" class="dropdownbutton">Stil dit eget spørgsmål her...</a>
+          <a href="" class="dropdownbutton">Se andres spørgsmål her...</a>
+
+
+
+    </section>
+
+
+    <!--Side 5-->
+    <section id="side5">
+
+      <h2>Begivenheder for DIG</h2>
+
+      <section id="nytmobil">
+        <figure>
+          <img src="images/b1.2.jpg" alt="pas" style="width:100%">
+            <figcaption>
+              <p>blablabla</p>
+            </figcaption>
+        </figure>
+
+      <figure>
+        <img src="images/b2.2.jpg" alt="pas" style="width:100%">
+          <figcaption>
+            <p>blablabla</p>
+          </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/b3.2.png" alt="pas" style="width:100%">
+          <figcaption>
+            <p>blablabla</p>
+          </figcaption>
+      </figure>
+    </section>
+
+    <section id="nytdesk">
+      <figure>
+        <img src="images/b1.jpg" alt="pas" style="width:100%">
+      </figure>
+
+      <figure>
+        <img src="images/b2.jpg" alt="pas" style="width:100%">
+      </figure>
+
+      <figure>
+        <img src="images/b3.jpg" alt="pas" style="width:100%">
+      </figure>
+    </section>
+
+  </section>
+
+
+
+    <!--Side 6-->
+    <section id="side6">
+
+      <section class="flexcontainer">
+          <section class="flexitem">
+            <h2>Telefontider</h2>
+              <table>
+                <tr>
+                  <th>Mandag</th>
+                  <td>kl. 9:00-14:00</td>
+                </tr>
+                <tr>
+                  <th>Tirsdag</th>
+                  <td>kl. 9:00-14:00</td>
+                </tr>
+                <tr>
+                  <th>Onsdag</th>
+                  <td>kl. 9:00-14:00</td>
+                </tr>
+                <tr>
+                  <th>Torsdag</th>
+                  <td>kl. 12:00-18:00</td>
+                </tr>
+                <tr>
+                  <th>Fredag</th>
+                  <td>kl. 9:00-13:00</td>
+                </tr>
+              </table>
+        </section>
+
+
+          <section id=open class="flexitem">
+            <h2>Åbningstider</h2>
+            <table>
+              <tr>
+                <th>Mandag</th>
+                <td>kl. 9:00-14:00</td>
+              </tr>
+              <tr>
+                <th>Tirsdag</th>
+                <td>kl. 9:00-14:00</td>
+              </tr>
+              <tr>
+                <th>Onsdag</th>
+                <td>kl. 9:00-14:00</td>
+              </tr>
+              <tr>
+                <th>Torsdag</th>
+                <td>kl. 12:00-18:00</td>
+              </tr>
+              <tr>
+                <th>Fredag</th>
+                <td>kl. 9:00-13:00</td>
+              </tr>
+            </table>
+        </section>
+      </section>
+
+
+  </section>
+
+
+    <!--Side 7-->
+  <section id="side7">
+
+  </section>
+
+<!--Side 8-->
+
+<section id="side8">
+
+<img id="logobund" src="images/logo.png" alt="logo">
+
+  <section class="flexcontainer">
+    <article class="flexitem">
+      <h2>Køge Kommune</h2>
+      <p> Torvet 1, 4600 Køge</p>
+      <a class="mail" href="mailto:raadhus@koege.dk">raadhus@koege.dk</a>
+      <br>
+      <a class="tlf" href="tel:+4556676767">+45 56676767</a>
+    </article>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2262.3442411123583!2d12.18277040359051!3d55.45666534736001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652f05350a21773%3A0x652ea785470e75a!2sTorvet+1%2C+4600+K%C3%B8ge!5e0!3m2!1sda!2sdk!4v1527534839279" width="300" height="225"  style="border:0" allowfullscreen class="flexitem"></iframe>
+
+    <!--frameborder="0" fra iframe - blev ikke valideret -->
+
+  </section>
+
+
+</section>
+
+</main>
+<footer>
+  <a href="https://www.facebook.com/koegekommune/?hc_ref=ARTUVwYhjRHDBHmlwRBdwd1Td0AGcytIDK5qOSpYAEOVyJjc_GHK0yTPSRhv2U8Q7s4&fref=nf" class="fa fa-facebook"></a>
+  <a href="https://www.linkedin.com/company/koge-kommune/" class="fa fa-linkedin"></a>
+</footer>
+
+
+
+  </body>
+</html>
