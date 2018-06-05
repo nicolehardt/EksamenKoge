@@ -11,13 +11,24 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="http://code.jquery.com/jquery-[latest].min.js"></script>
 <link href="css/style.css" type="text/css" rel="stylesheet">
 <script>
 $(document).ready(function(){
     $(".dropdownbutton").hide();
-    $("button").click(function(){
+    $("#ask").click(function(){
         $(".dropdownbutton").toggle();
     });
+
+    $("#fbstyle").click(function() {
+      $("#slider").toggleClass("facebookshow");
+      $("#fbstyle").toggleClass("triggershow");
+      $("#fbstyle").toggleClass("trigger");
+    });
+
+    /*$('#slider').slideReveal({
+    trigger: $("#trigger")
+  });*/
 });
 
 
@@ -28,6 +39,11 @@ $(document).ready(function(){
 
   <body id="hovedside">
 <header>
+
+<button type="button" name="button" class="trigger" id="fbstyle"><i class="fa fa-facebook-square"></i></button>
+  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkoegekommune%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" id="slider"></iframe>
+
+
 
 <!--Side 1-->
 <img id="logotop" src="images/logo.png" alt="logo">
@@ -43,7 +59,7 @@ $(document).ready(function(){
         <p>Alt sammen lige her. Helt simpelt.</p>
 
       <section>
-        <button>Spørg MOR  ></button>
+        <button id="ask">Spørg MOR  ></button>
            <a href="" class="dropdownbutton">Stil dit eget spørgsmål her...</a>
           <a href="" class="dropdownbutton">Se andres spørgsmål her...</a>
       </section>

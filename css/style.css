@@ -19,6 +19,41 @@ html, body {
 
 /*---------------INDEX-----------------*/
 
+.trigger{
+  left: 0;
+  top: 14%;
+  transition: 0.5s;
+}
+
+#fbstyle{
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  color: #EFD04E;
+  position: fixed;
+  font-size: 277%;
+}
+
+header iframe{
+  position: fixed;
+  top: 14%;
+  left: -100%;
+  width: 85%;
+  transition: 0.5s;
+}
+
+.facebookshow{
+  left: 0;
+  transition: 0.5s;
+}
+
+.triggershow{
+  left: 85%;
+  top: 14%;
+  transition: 0.5s;
+
+}
+
 #side1 {
   height: 102vh;
   background-image: url("../images/mobiltop.jpg");
@@ -480,7 +515,7 @@ table {
   margin-top: 0;
 }
 
-iframe{
+#side8 iframe{
   margin: 5% auto;
 }
 
