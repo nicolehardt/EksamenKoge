@@ -613,7 +613,7 @@ footer .fa:hover {
   list-style-type: circle;
 }
 
-#mama #quest article{
+#mama #quest .flexitem{
   margin-top: 11%;
 }
 
@@ -969,6 +969,82 @@ footer .fa:hover {
   footer .fa{
     padding: 14px;
   }
+
+  #mama .logo{
+    width: 20%;
+  }
+
+  #mama h1{
+    font-size: 320%;
+    margin-top: 6%;
+  }
+
+  #mama #search{
+    padding-top: 1%;
+  }
+
+  #mama #search h2{
+    font-size: 120%;
+  }
+
+  #mama #search .flexcontainer{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #mama #search .flexitem{
+    width: 50%;
+  }
+
+  #mama .mor{
+    width: 30%;
+  }
+
+  #mama select{
+    width: 75%;
+  }
+
+  #mama textarea{
+    width: 95%;
+  }
+
+  #mama input{
+    font-size: 150%;
+    padding: 1% 7%;
+  }
+
+  #mama #quest{
+    margin-top: 10%;
+  }
+
+  #mama #quest h2{
+    font-size: 220%;
+  }
+
+  #mama #quest p{
+    font-size: 120%;
+  }
+
+  #mama #quest .flexitem{
+    margin-top: 7%;
+  }
+
+  #mama #quest h3{
+    font-size: 160%;
+  }
+
+  #mama #quest h4{
+    font-size: 115%;
+  }
+
+  #mama #quest li{
+    font-size: 110%;
+  }
+
+  #mama #quest ul{
+    margin-bottom: 4%;
+  }
+
 }
 
 
