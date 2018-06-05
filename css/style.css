@@ -586,8 +586,8 @@ footer .fa:hover {
 
 #mama #search input{
   border-radius: 6px;
-  border-color: grey;
-  border-width: thin;
+  /*border-color: grey;
+  border-width: thin;*/
   background-color: white;
   font-size: 120%;
   padding: 2% 8%;
@@ -1397,6 +1397,34 @@ footer .fa {
   border-radius: 50%;
 
   /*margin-left: 20px;*/
+}
+
+#mama .logo{
+  width: 15%;
+  margin: 2%;
+}
+
+#mama h1{
+  font-size: 350%;
+  margin-top: 0;
+}
+
+#mama .mor{
+  width: 23%;
+}
+
+#mama #search h2{
+  font-size: 145%;
+}
+
+#mama select{
+  font-size: 140%;
+}
+
+#mama #search input{
+  font-size: 165%;
+  padding: 1% 6%;
+  margin: 4% auto;
 }
 
 }
