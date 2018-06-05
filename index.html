@@ -16,7 +16,7 @@
 <script>
 $(document).ready(function(){
     $(".dropdownbutton").hide();
-    $("#ask").click(function(){
+    $(".ask").click(function(){
         $(".dropdownbutton").toggle();
     });
 
@@ -59,7 +59,7 @@ $(document).ready(function(){
         <p>Alt sammen lige her. Helt simpelt.</p>
 
       <section>
-        <button id="ask">Spørg MOR  ></button>
+        <button class="ask">Spørg MOR  ></button>
            <a href="mor.html" class="dropdownbutton">Stil dit eget spørgsmål her...</a>
           <a href="mor.html#quest" class="dropdownbutton">Se andres spørgsmål her...</a>
       </section>
@@ -104,7 +104,7 @@ $(document).ready(function(){
       <h2>Hvad søger du?</h2>
 
       <nav>
-        <ul id="navtop">
+        <ul>
           <li>
             <a href="https://www.borger.dk/internet-og-sikkerhed/Digital-Post/Oftest-stillede-spoergsmaal">e-Boks</a>
           </li>
@@ -114,8 +114,6 @@ $(document).ready(function(){
           <li>
             <a href="https://www.borger.dk/transport-trafik-rejser/Pas/Ansoeg-om-eller-forny-dansk-pas">Pas</a>
           </li>
-        </ul>
-        <ul id="navbund">
           <li>
             <a href="https://www.borger.dk/transport-trafik-rejser/biler-og-koerekort/koerekort/dit-foerste-koerekort">Kørekort</a>
           </li>
@@ -230,7 +228,7 @@ $(document).ready(function(){
 
 
 
-        <button>Spørg MOR  ></button>
+        <button class="ask">Spørg MOR  ></button>
           <a href="" class="dropdownbutton">Stil dit eget spørgsmål her...</a>
           <a href="" class="dropdownbutton">Se andres spørgsmål her...</a>
 

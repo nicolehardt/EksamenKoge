@@ -212,6 +212,23 @@ header iframe{
   background-color: rgba(99, 156, 167, 0.5);
 }
 
+#side3 nav{
+  list-style-type: none;
+}
+
+#side3 nav ul{
+  width: 80%;
+  margin: 0 auto;
+  padding: 1% 3%;
+}
+
+#side3 nav li{
+  display: inline-block;
+  margin: 1% 2%;
+}
+
+/*
+
 #side3 #navtop {
     list-style-type: none;
     margin: 10px;
@@ -239,6 +256,10 @@ header iframe{
   font-weight: normal;
   text-decoration: none;
 }
+
+*/
+
+
 
 #side3 figure {
   display: inline-block;
@@ -1221,9 +1242,10 @@ footer .fa:hover {
   padding-top: 2%;
 }
 
+/*
 #side3 #navtop, #side3 #navbund{
   padding-top: 1%;
-}
+}*/
 
 #side3 nav a{
   font-size: 1.2vw;
