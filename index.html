@@ -14,9 +14,14 @@
 <link href="css/style.css" type="text/css" rel="stylesheet">
 <script>
 $(document).ready(function(){
-    $(".dropdownbutton").hide();
-    $(".ask").click(function(){
-        $(".dropdownbutton").toggle();
+    $("#side1 > .dropdownbutton").hide();
+    $("#side1 >.ask").click(function(){
+        $("#side1 .dropdownbutton").toggle();
+    });
+
+    $("#side4 > .dropdownbutton").hide();
+    $("#side4 >.ask").click(function(){
+        $("#side4 .dropdownbutton").toggle();
     });
 
     $("#fbstyle").click(function() {
