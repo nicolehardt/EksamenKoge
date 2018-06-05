@@ -536,6 +536,7 @@ footer .fa:hover {
 .logo{
   width: 30%;
   float: left;
+  margin: 3% 2%;
 }
 
 
@@ -599,8 +600,8 @@ footer .fa:hover {
 
 #mama #quest{
   background-color: #FFEEC6;
-  padding: 3%;
-  margin: 17% auto 7% auto;
+  padding: 3% 3% 10% 3%;
+  margin: 17% auto auto auto;
 }
 
 #mama ul{
@@ -622,10 +623,12 @@ footer .fa:hover {
 
 #mama #quest h3{
   margin: 0;
+  font-size: 135%;
 }
 
 #mama #quest h4{
   margin: 1%;
+  font-size: 110%;
   text-align: left;
 }
 
