@@ -627,7 +627,7 @@ footer .fa:hover {
 }
 
 #mama #quest h4{
-  margin: 1%;
+  margin: 1% 0;
   font-size: 110%;
   text-align: left;
 }
@@ -890,6 +890,15 @@ footer .fa:hover {
     height: 60%;
     margin: 7px 2px;
   }
+
+  #mama #quest{
+    padding: 3% 5% 10% 5%;
+  }
+
+  #mama h3{
+    font-size: 145%;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
