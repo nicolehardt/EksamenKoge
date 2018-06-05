@@ -103,7 +103,7 @@ header iframe{
     clear: right;
 }
 
-#side1 .dropdownbutton{
+.dropdownbutton{
     width: 60%;
     background-color: #efdb88;
     border: none;
@@ -358,7 +358,7 @@ header iframe{
     clear: right;
 }
 
-#side4 .dropdownbutton{
+/*#side4 .dropdownbutton{
     width: 66%;
     background-color: #efdb88;
     border: none;
@@ -368,7 +368,7 @@ header iframe{
     display: block;
     margin-top: 0;
     cursor: pointer;
-}
+}*/
 
 
 #side4 section a{
@@ -679,6 +679,7 @@ footer .fa:hover {
   border-radius: 8px;
   font-size: 125%;
   padding: 2%;
+
 }
 
 /* Small devices (large phones) */
@@ -827,7 +828,7 @@ footer .fa:hover {
     padding: 15px 70px;
   }
 
-  #side1 .dropdownbutton{
+  .dropdownbutton{
     width: 50%;
   }
 
@@ -888,9 +889,6 @@ footer .fa:hover {
     padding: 15px 80px;
   }
 
-  #side4 .dropdownbutton{
-    width: 50%;
-  }
 
   #side5 figure{
     width: 80%;
@@ -1137,7 +1135,7 @@ footer .fa:hover {
     clear: right;*/
 }
 
-#side1 .dropdownbutton{
+.dropdownbutton{
     /*display: inline-table;*/
     margin: auto;
     width: 19%;
@@ -1152,7 +1150,7 @@ footer .fa:hover {
 }
 
 
-#side1 .dropdownbutton a{
+.dropdownbutton a{
   margin-top: 0;
   color: black;
   font-size: 15px;
