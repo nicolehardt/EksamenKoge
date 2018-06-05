@@ -1435,17 +1435,22 @@ footer .fa {
 }
 
 #mama .logo{
-  width: 15%;
+  width: 12%;
   margin: 2%;
 }
 
 #mama h1{
-  font-size: 350%;
+  font-size: 330%;
   margin-top: 0;
+  margin-bottom: 1%;
 }
 
 #mama .mor{
   width: 23%;
+}
+
+#mama #bred{
+  padding-top: 3%;
 }
 
 #mama #search h2{
@@ -1459,7 +1464,22 @@ footer .fa {
 #mama #search input{
   font-size: 165%;
   padding: 1% 6%;
-  margin: 4% auto;
+  margin: 2.5% auto;
+}
+
+#mama #quest{
+  margin-top: 3%;
+  padding: 4% 5% 5% 5%;
+}
+
+#mama #quest .flexcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#mama #quest .flexitem{
+  width: 47%;
 }
 
 }
