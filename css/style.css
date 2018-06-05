@@ -12,6 +12,7 @@ html, body {
 
 #hovedside{
   background-image: url("../images/sten1.jpg");
+  position: fixed;
 }
 
 #mama{
@@ -124,7 +125,6 @@ header iframe{
 
 #side1 section a{
   margin-top: 0;
-  font-weight: lighter;
   color: white;
   text-align: center;
   text-decoration: none;
