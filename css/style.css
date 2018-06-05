@@ -526,7 +526,7 @@ footer .fa:hover {
 
 
 
-/*---------------MOR-----------------*/
+/*---------------SPØRG MOR-----------------*/
 #mama{
   /*background-color: white;*/
   background-image: none;
@@ -560,8 +560,11 @@ footer .fa:hover {
 
 #mama .left{
   width: 90%;
-  margin: 0 auto;
   text-align: left;
+}
+
+#mama #search .left{
+    margin: 0 auto;
 }
 
 #mama select{
@@ -602,6 +605,7 @@ footer .fa:hover {
 
 #mama ul{
   padding-left: 2%;
+  margin: 0 auto 7% auto;
 }
 
 #mama li{
@@ -622,6 +626,7 @@ footer .fa:hover {
 
 #mama #quest h4{
   margin: 1%;
+  text-align: left;
 }
 
 #mama #quest p{
@@ -634,7 +639,7 @@ footer .fa:hover {
   color: black;
   text-decoration: none;
   border-radius: 8px;
-  font-size: 150%;
+  font-size: 125%;
   padding: 2%;
 }
 
