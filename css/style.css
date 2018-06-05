@@ -354,7 +354,7 @@ header iframe{
 }
 
 .mor {
-  max-width: 31%;
+  width: 31%;
 }
 
 #side4 article p {
@@ -588,6 +588,11 @@ footer .fa:hover {
   background-image: none;
 }
 
+#mama header{
+  background-color: #EFD04E;
+  height: 3.5em;
+}
+
 
 .logo{
   width: 30%;
@@ -604,6 +609,7 @@ footer .fa:hover {
 #mama h1{
   font-size: 280%;
   margin-bottom: 3%;
+  margin-top: 1%;
 }
 
 #mama h2{
@@ -663,7 +669,7 @@ footer .fa:hover {
 
 #mama ul{
   padding-left: 2%;
-  margin: 0 auto 7% auto;
+  margin: 0 0 7% 0;
 }
 
 #mama li{
@@ -705,8 +711,7 @@ footer .fa:hover {
 }
 
 /* Small devices (large phones) */
-@media only screen and (min-width: 400px)
-{
+@media only screen and (min-width: 400px){
   /*#side2{
   padding: 1em 0;
   }
@@ -729,6 +734,9 @@ footer .fa:hover {
 }*/
 
 
+.triggershow{
+  left: 82%;
+}
 
 
 
@@ -824,14 +832,22 @@ footer .fa:hover {
     float: left;
     max-width: 20%;
     margin: 2% 0 0 2%;
+}*/
+
+#mama header{
+  height: 4em;
+}
+
+#mama #search{
+  padding-top: 13%;
+}
+
+#mama textarea{
+  width: 100%;
 }
 
 
-
-
-
-
-}*/
+}
 
 /* Tablets vertical*/
 @media only screen and (min-width: 760px) {
@@ -841,7 +857,12 @@ footer .fa:hover {
     font-size: 310%;
   }
 
-  #side1 p{
+header iframe, header button{
+  display: none;
+}
+
+
+#side1 p{
     font-size: 125%;
   }
 
@@ -946,8 +967,27 @@ footer .fa:hover {
     margin: 7px 2px;
   }
 
+
+  #mama header{
+    height: 7em;
+  }
+
+
+
+  #mama #search{
+    padding-top: 9%;
+  }
+
   #mama #quest{
     padding: 3% 5% 10% 5%;
+  }
+
+  #mama h2{
+    font-size: 120%;
+  }
+
+  #mama select{
+    font-size: 110%;
   }
 
   #mama h3{
@@ -960,11 +1000,16 @@ footer .fa:hover {
 
 
 /* Tablets horizontal */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1023px){
 
   #logotop, #logobund{
     width: 20%;
   }
+
+/*
+  .triggershow{
+    left: 33.2%;
+  }*/
 
   #side1 h1{
     padding-top: 5.5em;
@@ -1025,13 +1070,19 @@ footer .fa:hover {
     padding: 14px;
   }
 
+
+#mama header{
+  height: 7em;
+}
+
+
   #mama .logo{
     width: 20%;
   }
 
   #mama h1{
     font-size: 320%;
-    margin-top: 6%;
+    margin-top: 2%;
   }
 
   #mama #search{
@@ -1063,14 +1114,24 @@ footer .fa:hover {
     width: 95%;
   }
 
-  #mama input{
+  #mama #search input{
     font-size: 150%;
     padding: 1% 7%;
+    margin: 3% auto;
   }
 
   #mama #quest{
-    margin-top: 10%;
+    margin-top: 13%;
   }
+
+  #mama #quest .flexcontainer article{
+    margin-top: 7%;
+  }
+
+  #mama #quest .flexcontainer section{
+    margin-top: 0;
+  }
+
 
   #mama #quest h2{
     font-size: 220%;
@@ -1100,6 +1161,15 @@ footer .fa:hover {
     margin-bottom: 4%;
   }
 
+  #mama #quest .flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #mama #quest .flexcontainer section{
+    width: 50%;
+  }
+
 }
 
 
@@ -1112,8 +1182,12 @@ footer .fa:hover {
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px)
-{
+@media only screen and (min-width: 1200px) {
+
+/*.triggershow{
+  left: 28.4%;
+}*/
+
 #side1 {
   /*height: 94vh;*/
 }
@@ -1466,8 +1540,16 @@ footer .fa {
   margin-bottom: 1%;
 }
 
+#mama header{
+  height: 6em;
+}
+
 #mama .mor{
-  width: 23%;
+  width: 30%;
+}
+
+#mama #robot{
+  width: 35%;
 }
 
 #mama #bred{
