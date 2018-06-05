@@ -638,6 +638,7 @@ footer .fa:hover {
 #mama textarea{
   margin-top: 1%;
   border-radius: 6px;
+  font-family: 'avenir next', 'Quicksand', sans-serif;
 }
 
 #mama #search input{
@@ -1500,6 +1501,26 @@ footer .fa {
 
 #mama #quest .flexitem{
   width: 47%;
+}
+
+#mama #quest .flexcontainer section{
+  margin-top: 2%;
+}
+
+#mama #quest #adress h4{
+  margin-top: 3%;
+}
+
+#mama #quest #adress ul{
+  margin-bottom: 19%;
+}
+
+#mama #quest .flexcontainer section p{
+  margin: 0;
+}
+
+#mama #quest .flexcontainer article{
+  margin-top: 5%;
 }
 
 }
