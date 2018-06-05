@@ -17,6 +17,10 @@ html, body {
   background-image: url("../images/sten1.jpg");
 }
 
+#mama{
+  font-family: 'avenir next', 'Quicksand', sans-serif;
+}
+
 /*---------------INDEX-----------------*/
 
 .trigger{
@@ -765,6 +769,18 @@ footer .fa:hover {
     padding-top: 60px;
 }
 
+#mama header{
+  height: 4em;
+}
+
+#mama #search{
+  padding-top: 13%;
+}
+
+#mama textarea{
+  width: 100%;
+}
+
 }
 
 /*@media only screen and (min-width: 528px)
@@ -834,20 +850,8 @@ footer .fa:hover {
     margin: 2% 0 0 2%;
 }*/
 
-#mama header{
-  height: 4em;
-}
-
-#mama #search{
-  padding-top: 13%;
-}
-
-#mama textarea{
-  width: 100%;
-}
 
 
-}
 
 /* Tablets vertical*/
 @media only screen and (min-width: 760px) {
@@ -1086,11 +1090,11 @@ header iframe, header button{
   }
 
   #mama #search{
-    padding-top: 1%;
+    padding: 1% 3% 0 5%;
   }
 
   #mama #search h2{
-    font-size: 120%;
+    font-size: 110%;
   }
 
   #mama #search .flexcontainer{
@@ -1168,6 +1172,10 @@ header iframe, header button{
 
   #mama #quest .flexcontainer section{
     width: 50%;
+  }
+
+  #mama #quest .flexcontainer #alle{
+    padding-top: 4%;
   }
 
 }
@@ -1565,9 +1573,13 @@ footer .fa {
 }
 
 #mama #search input{
-  font-size: 165%;
-  padding: 1% 6%;
+  font-size: 108%;
+  padding: 1% 5%;
   margin: 2.5% auto;
+}
+
+#mama #search h2{
+  font-size: 100%;
 }
 
 #mama #quest{
@@ -1594,7 +1606,7 @@ footer .fa {
 }
 
 #mama #quest #adress ul{
-  margin-bottom: 19%;
+  margin-bottom: 15%;
 }
 
 #mama #quest .flexcontainer section p{
@@ -1603,6 +1615,10 @@ footer .fa {
 
 #mama #quest .flexcontainer article{
   margin-top: 5%;
+}
+
+#mama #quest .flexcontainer #alle{
+  padding-top: 1%;
 }
 
 }
